@@ -1,5 +1,5 @@
 const choice = (items) => {
-    const random = Math.floor(Math.random() * items.length + 1);
+    const random = Math.floor(Math.random() * items.length);
     return items[ random ];
 }
 
